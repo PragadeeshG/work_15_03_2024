@@ -1,0 +1,15 @@
+create table if not exists bdp_correspondence(
+record_key varchar(255) not null,
+parent_office varchar(255) null,
+head_office varchar(255) null,
+reach_minus_key varchar(255) null,
+agent varchar(255) null,
+institution_country varchar(255) null,
+currency varchar(255) null,
+is_correspondence varchar(255) null,
+local_correspondence varchar(255) null,
+branch_name varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint bdp_correspondence_pk primary key(record_key));
